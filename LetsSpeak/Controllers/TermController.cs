@@ -1,8 +1,9 @@
-﻿using LetsSpeak.Repositories.Interfaces;
+﻿using LetsSpeak.Controllers.Interfaces;
+using LetsSpeak.Repositories.Interfaces;
 
 namespace LetsSpeak.Controllers;
 
-internal class TermController
+internal class TermController : ITermController
 {
     ITermRepository _repository;
 
